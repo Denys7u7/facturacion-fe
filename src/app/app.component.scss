@@ -1,0 +1,60 @@
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.products {
+  width: 100%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.precio {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+.orden-compra {
+  display: flex;
+  margin-bottom: 20px;
+
+  button {
+    margin-right: 20px;
+    background-color: yellow;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.guardar-orden-compra {
+  margin-top: 20px;
+
+  button {
+    margin-right: 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.producto-form {
+  margin-bottom: 10px;
+}
